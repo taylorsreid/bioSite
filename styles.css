@@ -39,12 +39,17 @@ figure {
     width: fit-content;
 }
 
+
+.pinktheme:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
 .navbar {
     text-align: center;
     font-weight: 400;
 }
 
-.navbar a, .pinktheme {
+.pinktheme {
     padding-left: 6rem;
     padding-right: 6rem;
     padding-top: 1rem;
@@ -54,7 +59,7 @@ figure {
     font-size: larger;
 }
 
-#textbox {
+.textbox {
     width: 75%;
     text-align: left;
 }
