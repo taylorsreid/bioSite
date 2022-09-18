@@ -7,30 +7,54 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
-        <link href="index.css" type="text/css" rel="stylesheet" />
+        <title>Mari's Hobbies</title>
+        <link href="styles.css" type="text/css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&family=Ubuntu:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
     </head>
     <body>
 
         <header>
-            <h1>Mari's Hobbies</h1>
+            <div id="pagetitle">Mari's Hobbies</div>
+            <div class="navbar">
+                <a href="index.html"class="pinktheme">Home</a>
+                <a href="about.html" class="pinktheme">About</a>
+                <a href="hobbies.html" style="text-decoration: underline;"  class="pinktheme">Hobbies</a>
+            </div>
         </header>
 
-        <div id="navbar">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="hobbies.html">Hobbies</a>
-        </div>
+        <br /><br />
 
-        <div id="picture-gallery">
-            
-        </div>
+        <table class="center">
+            <tr>
+                <td>
+                    <figure class="pinktheme">
+                        <img src="img/usopen.jpg">
+                        <figcaption>
+                            <div>Two of her hobbies: tennis and traveling!</div>
+                            <div>Taken at JFK Airport.</div>
+                        </figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure class="pinktheme">
+                        <img src="img/skippers.jpg">
+                        <figcaption>Ran into an old friend while on vacation!</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure class="pinktheme">
+                        <img src="img/magickingdom.jpg">
+                        <figcaption>And met up with some others!</figcaption>
+                    </figure>
+                </td>
+            </tr>
+        </table>
 
-        <div id="text-box">
-
-        </div>
-
-        <footer>
+        <br /><br />
+        
+        <footer class="pinktheme">
             <a href="index.html">Return to Home Page</a>
         </footer>
 

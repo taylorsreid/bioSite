@@ -2,10 +2,14 @@
 
 body {
     background-color:rgb(248, 204, 211);
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 }
 
 hr {
     border-color: deeppink;
+    width: 75%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 figure {
@@ -16,20 +20,19 @@ figure {
 /* Class and ID rules: */
 
 #pagetitle {
-    font-family: 'Tangerine', cursive;
-    font-size:6em;
+    font-family: 'Tangerine', cursive, Arial, Helvetica, sans-serif;
+    font-size:8rem;
     color: white;
     text-align: center;
-    margin: 20px;
+    margin: 2rem;
 }
 
 .pinktheme {
     background-color: white;
-    border-radius: 20px;
-    border-style: dashed;
+    border-radius: 2rem;
+    border-style: dotted;
     border-color: deeppink;
-    border-spacing: 20px;
-    padding: 20px;
+    padding: 3rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -41,26 +44,30 @@ figure {
     font-weight: 400;
 }
 
-.navbar a, .pinktheme a {
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.navbar a, .pinktheme {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
     text-decoration: none;
     font-size: larger;
 }
 
-#qanda {
+#textbox {
     width: 75%;
+    text-align: left;
 }
 
 .question {
-    text-align: left;
     font-style: italic;
 }
 
 .response {
-    text-align: left;
-    padding-left: 4em;
+    padding-left: 4rem;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
 }
