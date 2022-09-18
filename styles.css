@@ -1,0 +1,66 @@
+/* Hard and fast rules: */
+
+body {
+    background-color:rgb(248, 204, 211);
+}
+
+hr {
+    border-color: deeppink;
+}
+
+figure {
+    display: block;
+    max-width: 532px;
+}
+
+/* Class and ID rules: */
+
+#pagetitle {
+    font-family: 'Tangerine', cursive;
+    font-size:6em;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+.pinktheme {
+    background-color: white;
+    border-radius: 20px;
+    border-style: dashed;
+    border-color: deeppink;
+    border-spacing: 20px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: fit-content;
+}
+
+.navbar {
+    text-align: center;
+    font-weight: 400;
+}
+
+.navbar a, .pinktheme a {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-decoration: none;
+    font-size: larger;
+}
+
+#qanda {
+    width: 75%;
+}
+
+.question {
+    text-align: left;
+    font-style: italic;
+}
+
+.response {
+    text-align: left;
+    padding-left: 4em;
+}
