@@ -27,6 +27,14 @@ figure {
     margin: 2rem;
 }
 
+.subtitle {
+    text-align: center;
+    font-size:3rem;
+    font-family: 'Tangerine', cursive, Arial, Helvetica, sans-serif;
+    color: deeppink;
+    margin: 1rem;
+}
+
 .pinktheme {
     background-color: white;
     border-radius: 2rem;
