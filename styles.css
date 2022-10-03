@@ -44,7 +44,7 @@ figure {
 .pinktheme {
     background-color: white;
     border-radius: 2rem;
-    border-style: dotted;
+    border-style: solid;
     border-color: deeppink;
     padding: 3rem;
     margin-left: auto;
